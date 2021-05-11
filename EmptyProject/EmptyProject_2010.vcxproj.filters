@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{909c2b34-68ac-4bc7-8111-3aed801561d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Object">
+      <UniqueIdentifier>{c6f6329d-6093-4163-924d-f2b676382fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Sprite">
+      <UniqueIdentifier>{7dd2d9c2-e7ca-41dc-925d-0cb571f55151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Compnent">
+      <UniqueIdentifier>{e8c3b60d-8ea0-4c87-9bcf-b4361e14c2ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Script\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnim.cpp">
+      <Filter>Script\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Script\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Script\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="Sprite.h">
+      <Filter>Script\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnim.h">
+      <Filter>Script\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Script\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Missile.h">
+      <Filter>Script\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

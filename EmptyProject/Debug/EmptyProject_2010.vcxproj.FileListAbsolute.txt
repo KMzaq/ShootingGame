@@ -1,0 +1,8 @@
+C:\Users\kimmi\Desktop\direxpr\DirectXSamples\EmptyProject\Debug\EmptyProject.exe
+C:\Users\kimmi\Desktop\direxpr\DirectXSamples\EmptyProject\Debug\EmptyProject.pdb
+C:\Users\김민수\Desktop\EmptyProject\Debug\EmptyProject.exe
+C:\Users\김민수\Desktop\EmptyProject\Debug\EmptyProject.pdb
+C:\Users\kimmi\Desktop\EmptyProject\Debug\EmptyProject.exe
+C:\Users\kimmi\Desktop\EmptyProject\Debug\EmptyProject.pdb
+D:\Making\Git\KMSProjectFile\슈팅게임\EmptyProject\Debug\EmptyProject.exe
+D:\Making\Git\KMSProjectFile\슈팅게임\EmptyProject\Debug\EmptyProject.pdb
